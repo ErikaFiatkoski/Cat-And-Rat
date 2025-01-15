@@ -9,3 +9,4 @@ Conjunto de 6 jogos feitos com javascript - projeto em andamento.
 - Jogo da velha;
 - A decidir;
 - A decidir;
+- A decidir;
