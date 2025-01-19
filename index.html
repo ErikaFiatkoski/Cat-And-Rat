@@ -12,7 +12,17 @@
   </head>
   <body>
     <header>
-      <p>Header - menu principal</p>
+      <div class="topo">
+        <div class="cat">
+          <p class="icone-personagem">😺:</p>
+          <p id="cat-points">0</p>
+        </div>
+        <h1 id="titulo__pagina">Cat And Rat</h1>
+        <div class="rat">
+          <p class="icone-personagem">🐭:</p>
+          <div id="rat-points">0</div>
+        </div>
+      </div>
     </header>
     <div class="principal">
       <div class="menu-games">
@@ -21,7 +31,10 @@
           <div class="other-game" id="game02">Jo-ken-po</div>
           <div class="other-game" id="game03">outro jogo :D</div>
         </div>
-        <div class="game-principal">Tela de jogo</div>
+        <div id="game-principal" class="jogo-da-velha">
+          <h3 id="name-game">Título do Jogo</h3>
+          <button id="criar-grid" type="button">Criar</button>
+        </div>
         <div class="inferior">
           <div class="other-game" id="game04">outro jogo :D</div>
           <div class="other-game" id="game05">Jogo da Velha</div>
