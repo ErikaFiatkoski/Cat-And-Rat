@@ -1,7 +1,7 @@
 .jogo-da-velha {
   width: 540px;
   height: 400px;
-  background-color: rgb(14, 163, 113);
+  background-color: rgb(155, 238, 210);
   display: flex;
   flex-direction: column;
   border: 5px solid black;

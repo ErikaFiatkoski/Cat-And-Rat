@@ -71,8 +71,8 @@ header {
   font-style: normal;
 }
 
-.superior,
-.inferior {
+.coluna-esquerda,
+.coluna-direita {
   width: 30%;
   height: 400px;
   background-color: aquamarine;
@@ -82,10 +82,10 @@ header {
 
 #name-game {
   text-align: center;
-  text-decoration: underline;
   z-index: 3;
   position: fixed;
   padding-left: 15%;
+  margin-top: 5px;
 }
 
 #name-game {
@@ -94,7 +94,7 @@ header {
   font-style: normal;
 }
 
-iframe {
+#frame-game {
   z-index: 1;
 }
 
