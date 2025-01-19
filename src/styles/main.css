@@ -8,7 +8,10 @@ header {
 }
 
 #titulo__pagina {
-  font-size: 100px;
+  font-size: 90px;
+  font-family: "Love Light", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .topo {
@@ -42,7 +45,7 @@ header {
 
 #cat-points,
 #rat-points {
-  font-size: 80px;
+  font-size: 60px;
   padding-bottom: 0px;
 }
 
@@ -63,6 +66,9 @@ header {
 .other-game {
   border: 1px solid black;
   height: 133.3px;
+  font-family: "Black And White Picture", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .superior,
@@ -72,16 +78,28 @@ header {
   background-color: aquamarine;
 }
 
-/* ---------------------FOOTER STYLE------------------------ */
-footer {
-  background-color: chocolate;
-  height: 100px;
-}
-
 /* ---------------------GAME PRINCIPAL STYLE------------------------ */
 
 #name-game {
   text-align: center;
   text-decoration: underline;
   z-index: 3;
+  position: fixed;
+  padding-left: 15%;
+}
+
+#name-game {
+  font-family: "Black And White Picture", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+iframe {
+  z-index: 1;
+}
+
+/* ---------------------FOOTER STYLE------------------------ */
+footer {
+  background-color: chocolate;
+  height: 100px;
 }
