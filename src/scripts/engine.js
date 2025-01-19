@@ -4,7 +4,9 @@ const state = {
     ratPoints: document.getElementById("rat-points"),
     nameGame: document.getElementById("name-game"),
     tela: document.getElementById("game-principal"),
-    botao: document.getElementById("criar-grid"),
+  },
+  value: {
+    escolha: 0,
   },
 };
 
